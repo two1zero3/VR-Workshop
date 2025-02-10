@@ -1,0 +1,72 @@
+# Blender 4.0.2 MTL File: 'None'
+# www.blender.org
+
+newmtl cloth
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Users/Carlinhos/Documents/minion rush textures (including more golden skills and minions UPDATED)/png/mc_bobking_df.png
+
+newmtl eyes
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Users/Carlinhos/Documents/minion rush textures (including more golden skills and minions UPDATED)/png/mc_bobking_df.png
+
+newmtl fur
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Users/Carlinhos/Documents/minion rush textures (including more golden skills and minions UPDATED)/png/mc_bobking_fur_df.png
+
+newmtl metal
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Users/Carlinhos/Documents/minion rush textures (including more golden skills and minions UPDATED)/png/mc_bobking_df.png
+
+newmtl plastic
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Users/Carlinhos/Documents/minion rush textures (including more golden skills and minions UPDATED)/png/mc_bobking_df.png
+
+newmtl shiny_things
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Users/Carlinhos/Documents/minion rush textures (including more golden skills and minions UPDATED)/png/mc_bobking_metal_df.png
+
+newmtl skin
+Ns 0.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd C:/Users/Carlinhos/Documents/minion rush textures (including more golden skills and minions UPDATED)/png/mc_bobking_df.png
