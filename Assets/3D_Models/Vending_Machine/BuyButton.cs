@@ -46,7 +46,7 @@ public class BuyButton : MonoBehaviour
             Rigidbody[] rigidbodies = SpoonInstance.GetComponentsInChildren<Rigidbody>();
             foreach (Rigidbody rb in rigidbodies)
             {
-                rb.AddForce(transform.forward * 2.0f, ForceMode.Impulse);
+                //rb.AddForce(transform.up * 9.0f, ForceMode.Impulse);
             }
             ButtonPressed = true;
             CoinSound.PlayOneShot(CoinSoundClip);
