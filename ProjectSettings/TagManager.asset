@@ -8,6 +8,8 @@ TagManager:
   - MiningSurface
   - LeftController
   - CoinsUI
+  - RightController
+  - GrabJoint
   layers:
   - Default
   - TransparentFX

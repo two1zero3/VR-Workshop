@@ -32,7 +32,7 @@ public class BuyButton : MonoBehaviour
 
         CoinsCounterUI CoinsCounter = FindAnyObjectByType<CoinsCounterUI>();
 
-        if (other.CompareTag("LeftController") && !ButtonPressed && CoinsCounter.GetComponent<CoinsCounterUI>().numberOfCoins >= priceOfItem) {
+        if ((other.CompareTag("LeftController") || other.CompareTag("RightController")) && !ButtonPressed && CoinsCounter.GetComponent<CoinsCounterUI>().numberOfCoins >= priceOfItem) {
             transform.position = new Vector3(transform.position.x, transform.position.y, transform.position.z - 0.05f);
             Invoke("resetPosition", 0.5f);
             //spawn Spoon at the position of the button
