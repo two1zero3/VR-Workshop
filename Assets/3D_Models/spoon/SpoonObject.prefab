@@ -133,11 +133,11 @@ Transform:
   m_GameObject: {fileID: 1170786394793381951}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.0058, z: 0.1172}
+  m_LocalPosition: {x: 0, y: -0.005800009, z: 0.11720002}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 8990042471044956768}
+  m_Father: {fileID: 357218603759387456}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1871110461762155385
 GameObject:
@@ -170,7 +170,6 @@ Transform:
   m_Children:
   - {fileID: 2804117987325259916}
   - {fileID: 357218603759387456}
-  - {fileID: 929131591130070249}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2503775865734139749
@@ -505,7 +504,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2861317150110534973}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1bedaac29a943f844a7074b53c8bdf9f, type: 3}
   m_Name: 
@@ -548,6 +547,7 @@ Transform:
   m_Children:
   - {fileID: 6364178400683705138}
   - {fileID: 2409887664173489355}
+  - {fileID: 929131591130070249}
   m_Father: {fileID: 8990042471044956768}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!54 &1814903759787320601
@@ -697,6 +697,7 @@ MonoBehaviour:
   coinSpawnPoint: {fileID: 1170786394793381951}
   grabJoint: {fileID: 2861317150110534973}
   threshold: 0.1
+  Labels: 4
 --- !u!82 &7613964588177466918
 AudioSource:
   m_ObjectHideFlags: 0

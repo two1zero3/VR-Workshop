@@ -11,6 +11,8 @@ public class BuyButton : MonoBehaviour
 
     public int priceOfItem = 0;
 
+    public GameObject spawnPoint;
+
     bool ButtonPressed = false;
     public GameObject Spoon;
     
@@ -37,7 +39,15 @@ public class BuyButton : MonoBehaviour
             Invoke("resetPosition", 0.5f);
             //spawn Spoon at the position of the button
             GameObject SpoonInstance = Instantiate(Spoon);
-            SpoonInstance.transform.position = transform.position;
+            SpoonInstance.transform.position = spawnPoint.transform.position;
+           
+            //SpoonInstance.GetComponent<Rigidbody>().AddForce(transform.forward * 2.0f, ForceMode.Impulse);
+             //get all rigidbody instances in the SpoonInstance and add force to it
+            Rigidbody[] rigidbodies = SpoonInstance.GetComponentsInChildren<Rigidbody>();
+            foreach (Rigidbody rb in rigidbodies)
+            {
+                rb.AddForce(transform.forward * 2.0f, ForceMode.Impulse);
+            }
             ButtonPressed = true;
             CoinSound.PlayOneShot(CoinSoundClip);
 
