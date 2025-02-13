@@ -3,9 +3,8 @@ using UnityEngine;
 
 public class CoinsCounterUI : MonoBehaviour
 {
-
-    int numberOfCoins = 10;
-    String coinsText = "Coins: ";
+    public int numberOfCoins = 0;
+    public String coinsText = "Coins: ";
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -17,15 +16,17 @@ public class CoinsCounterUI : MonoBehaviour
     {
         // get text (TMP) and 
         // set text to the number of coins collected
+        
         GetComponent<TMPro.TextMeshProUGUI>().text = coinsText + numberOfCoins.ToString();
     }
 
-    void AddCoins(int coins)
+    public void AddCoins(int coins)
     {
         numberOfCoins += coins;
+        print("Coins: " + numberOfCoins);
     }
 
-    void RemoveCoins(int coins)
+    public void RemoveCoins(int coins)
     {
         numberOfCoins -= coins;
     }

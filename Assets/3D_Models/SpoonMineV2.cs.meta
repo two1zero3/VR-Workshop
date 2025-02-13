@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7ff9c45943784c5499f9f18847920d88
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - Shekel: {instanceID: 0}
+  - CoinSound: {instanceID: 0}
+  - CoinSoundClip: {fileID: 8300000, guid: 238443d832c9d2240b79a313ebb44b75, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
