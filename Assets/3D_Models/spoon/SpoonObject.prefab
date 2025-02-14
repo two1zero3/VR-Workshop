@@ -691,7 +691,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 59411c6da7f184148af085569d8a433c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Shekel: {fileID: 7257663661134242785, guid: f42a3e7b360fcd74bb8f3621b0af0c3e, type: 3}
+  Shekel: {fileID: 5718857082364233091, guid: fb388e60aebec3b4fa94a8f00fac4a47, type: 3}
   CoinSound: {fileID: 7613964588177466918}
   CoinSoundClip: {fileID: 8300000, guid: 238443d832c9d2240b79a313ebb44b75, type: 3}
   coinSpawnPoint: {fileID: 1170786394793381951}
