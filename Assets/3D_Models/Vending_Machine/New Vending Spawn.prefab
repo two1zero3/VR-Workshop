@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 300 COINS
+  m_text: 300 Shillings
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 47a3c66215610374f99eb8adb3766bbd, type: 2}
   m_sharedMaterial: {fileID: -76175865348067612, guid: 47a3c66215610374f99eb8adb3766bbd, type: 2}
@@ -233,7 +233,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 75 Coins
+  m_text: 75 Shillings
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 47a3c66215610374f99eb8adb3766bbd, type: 2}
   m_sharedMaterial: {fileID: -76175865348067612, guid: 47a3c66215610374f99eb8adb3766bbd, type: 2}
@@ -502,7 +502,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 15 Coins
+  m_text: 15 shillings
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 47a3c66215610374f99eb8adb3766bbd, type: 2}
   m_sharedMaterial: {fileID: -76175865348067612, guid: 47a3c66215610374f99eb8adb3766bbd, type: 2}
@@ -1170,16 +1170,20 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1871110461762155385, guid: f3ae8c561ba194e4eb2464125a010ea9, type: 3}
     - target: {fileID: 7502714355634581772, guid: e4407e43de8a41148a5f64dca0e3085c, type: 3}
+      propertyPath: coinsText
+      value: 'SHILLINGS: '
+      objectReference: {fileID: 0}
+    - target: {fileID: 7502714355634581772, guid: e4407e43de8a41148a5f64dca0e3085c, type: 3}
       propertyPath: numberOfCoins
-      value: 1000
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8541650306292072133, guid: e4407e43de8a41148a5f64dca0e3085c, type: 3}
       propertyPath: m_text
-      value: 'Coins: '
+      value: 'SHILLINGS:'
       objectReference: {fileID: 0}
     - target: {fileID: 8541650306292072133, guid: e4407e43de8a41148a5f64dca0e3085c, type: 3}
       propertyPath: m_fontSize
-      value: 0.12
+      value: 0.08
       objectReference: {fileID: 0}
     - target: {fileID: 8541650306292072133, guid: e4407e43de8a41148a5f64dca0e3085c, type: 3}
       propertyPath: m_fontAsset
@@ -1199,7 +1203,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8541650306292072133, guid: e4407e43de8a41148a5f64dca0e3085c, type: 3}
       propertyPath: m_fontSizeBase
-      value: 0.12
+      value: 0.08
       objectReference: {fileID: 0}
     - target: {fileID: 8541650306292072133, guid: e4407e43de8a41148a5f64dca0e3085c, type: 3}
       propertyPath: m_sharedMaterial
