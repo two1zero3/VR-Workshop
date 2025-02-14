@@ -57,6 +57,8 @@ public class RoomSpawner : MonoBehaviour
                     continue;
                 }
                 GameObject obj = Instantiate(prefab, pos, Quaternion.LookRotation(normal), transform);
+                //give it a random rotation around the normal (30 degrees max)
+                obj.transform.Rotate(Vector3.up, Random.Range(0, 30), Space.Self);
                 objCount++;
 
                 if (objCount >= maxSpawnCount)
